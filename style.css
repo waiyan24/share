@@ -1,0 +1,59 @@
+.appbody {
+	max-width: 500px;
+	height: 400px;
+	padding: 10px;
+	margin: 0 auto;
+	margin-top: 30px;
+	background: #2ABB9B;
+	border-radius: 23px 23px 23px 23px;
+	box-shadow: 6px 6px 20px silver;
+	border: 3px solid #f0f0f0;
+}
+
+.appheader {
+	font-size: 18px;
+	color: #fff;
+	padding-left: 9px;
+}
+
+
+.btn-lg {
+	margin-left: 150px;
+	margin-top: 40px;
+	width: 170px;
+	box-shadow: 2px 2px 10px #292828;
+}
+
+.btn-lg:hover {
+	box-shadow: 8px 8px 10px #686666;
+}
+
+.dropzone
+{
+	border: 2px dashed #A5A5C7;
+	width: 100%;
+	color: #92AAB0;
+	text-align: center;
+	vertical-align: middle;
+	padding: 30px 0px;
+	margin-bottom: 10px;
+	font-size: 200%;
+	cursor: default;
+}
+
+.dragover {
+	border: 2px dashed #A5A5C7;
+	width: 100%;
+	color: #5D3F6A;
+	text-align: center;
+	vertical-align: middle;
+	padding: 30px 0px;
+	margin-bottom: 10px;
+	font-size: 200%;
+	cursor: hand;
+	background-color: #ECF0F1;
+}
+
+
+
+
