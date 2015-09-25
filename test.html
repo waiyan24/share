@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Button</title>
+	<style>
+	.animate {
+		margin-left: 50px;
+		margin-top: 50px;
+		display: inline-block;
+		width: 100px;
+		height: 40px;
+		background-color: lightgreen;
+		line-height: 40px;
+		text-align: center;
+		text-decoration: none;
+		color: white;
+		border-radius: 5px;
+		box-shadow: 3px 3px 5px #000;
+		-webkit-animation: animate 1s ease-in-out infinite alternate;
+		-o-animation: animate 1s ease-in-out infinite alternate;
+		animation: animate 1s ease-in-out infinite alternate;
+	}
+	@keyframes animate {
+		from {box-shadow:3px 3px 5px #000;}
+		to {box-shadow: 10px 10px 12px #000}
+	}
+	</style>
+</head>
+<body>
+	<a href="#" class="animate">Floating</a>
+	<ul type="circle">
+		<li>table</li>
+		<li>book</li>
+		<li>hgfg</li>
+	</ul>
+</body>
+</html>
